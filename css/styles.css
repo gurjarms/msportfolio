@@ -1361,7 +1361,7 @@ h6,
 
 h1,
 .h1 {
-    font-size: var(--text-display-1);
+    font-size: 209%;
     line-height: var(--vspace-2);
     letter-spacing: -.01em;
 }
@@ -2734,7 +2734,7 @@ img.u-pull-left {
 
 .text-huge-title {
     --text-huge: 10rem;
-    font-size: var(--text-huge);
+    font-size: 300%;
     line-height: 1.0740;
     margin-top: 0;
 }
@@ -3251,7 +3251,7 @@ img.u-pull-left {
 }
 
 .intro-content .text-huge-title {
-    font-size: calc(var(--text-huge) * var(--text-huge-multiplier));
+    font-size: 300%;
     padding-right: 5vw;
 }
 
@@ -3417,7 +3417,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 400px) {
     .intro-content .text-huge-title {
-        font-size: var(--text-display-1);
+        font-size: 300%;
         line-height: var(--vspace-2);
     }
 
@@ -3456,7 +3456,9 @@ img.u-pull-left {
 
 .about-info__pic {
     object-fit: cover;
-    margin: 0;
+    margin-left: 18%;
+    margin-top: -60px;
+    max-width: 70%;
     vertical-align: bottom;
 }
 
